@@ -29,8 +29,7 @@ public final class ZStackView: UIView {
         case horizontal
     }
 
-    public init(alignment: Alignment = .all,
-                content: [UIView]) {
+    public init(alignment: Alignment = .all, content: [UIView]) {
         super.init(frame: .zero)
         content.forEach {
             switch alignment {
